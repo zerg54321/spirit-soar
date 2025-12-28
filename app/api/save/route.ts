@@ -28,6 +28,7 @@ export async function POST(request: Request) {
       .insert([{ 
         content: body.content, 
         source: 'spirit-soar-bridge', 
+        tags: body.tags,
         created_at: new Date().toISOString() 
       }])
 
