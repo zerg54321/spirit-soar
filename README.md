@@ -32,10 +32,17 @@
 
 ## 🏗️ 待办事项 (Upcoming)
 
-- [ ] 修正 `role` 判定逻辑（告别全员 User 时代）。
 - [ ] 集成本地文件备份（File System Access API）。
 - [ ] 接入 VS Code 联动协议。
 
+## 🔗 生态配套 (Ecosystem)
+
+本项目作为“灵台”系统的信号基站，主要服务于以下采集前端：
+
+* **采集前端**: [spirit-soar-bridge](https://github.com/zerg54321/spirit-soar-bridge) — 专为 Gemini 设计的对话采集扩展。
+* **核心功能**: 提供安全的 CORS 预检处理与数据入库 API，确保每一寸思绪都能平安“上岸”。
+
+---
 ## 🕯️ 致谢
 
 感谢 Google 提供的隐形堡垒，感谢 Colm Wilkinson 的那声高歌，以及所有在深夜灵光一现的瞬间。
